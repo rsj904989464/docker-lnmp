@@ -1,0 +1,48 @@
+version: "3"
+
+services:
+  nginx:
+    image: nginx:1.22.1
+    restart: always
+    networks:
+      - nets
+    ports:
+      - "8081:80"
+    volumes:
+      - "./www:/usr/share/nginx/html"
+      - "./server/nginx/log:/var/log/nginx"
+      - "./server/nginx/conf.d:/etc/nginx/conf.d"
+      - "./server/nginx/nginx.conf:/etc/nginx/nginx.conf"
+  php:
+    build:
+      context: ./server/php
+    restart: always
+    networks:
+      - nets
+    expose:
+      - "9000"
+    volumes:
+      - "./server/php/php.ini-production:/usr/local/etc/php/php.ini-production"
+  redis:
+    image: redis:6.2.7
+    restart: always
+    networks:
+      - nets
+    ports:
+      - "6380:6379"
+    volumes:
+      - "./server/redis/redis.conf:/usr/local/etc/redis/redis.conf"
+      - "./data/redis:/data"
+    command: ["redis-server","/usr/local/etc/redis/redis.conf"]
+  mysql:
+    image: redis:5.7.44
+    restart: always
+    networks:
+      - nets
+    ports:
+      - "3307:3306"
+
+
+networks:
+  nets:
+

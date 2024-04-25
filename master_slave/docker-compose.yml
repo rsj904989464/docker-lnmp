@@ -1,0 +1,48 @@
+version: "3"
+
+services:
+  redis1:
+    image: redis:6.2.7
+    restart: always
+    networks:
+      - nets
+    ports:
+      - "6301:6379"
+    volumes:
+      - "./6301:/data"
+    command: ["redis-server","/data/redis.conf"]
+  redis2:
+    image: redis:6.2.7
+    restart: always
+    networks:
+      - nets
+    ports:
+      - "6302:6379"
+    volumes:
+      - "./6302:/data"
+    command: ["redis-server","/data/redis.conf"]
+#  redis3:
+#    image: redis:6.2.7
+#    restart: always
+#    networks:
+#      - nets
+#    ports:
+#      - "6303:6379"
+#    volumes:
+#      - "./6303:/data"
+#    command: ["redis-server","/data/redis.conf"]
+#  redis4:
+#    image: redis:6.2.7
+#    restart: always
+#    networks:
+#      - nets
+#    ports:
+#      - "6304:6379"
+#    volumes:
+#      - "./6304:/data"
+#    command: ["redis-server","/data/redis.conf"]
+
+
+networks:
+  nets:
+

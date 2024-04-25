@@ -1,0 +1,54 @@
+1:C 25 Apr 2024 08:55:44.798 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 25 Apr 2024 08:55:44.800 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 25 Apr 2024 08:55:44.806 # Configuration loaded
+1:M 25 Apr 2024 08:55:44.809 * monotonic clock: POSIX clock_gettime
+1:M 25 Apr 2024 08:55:44.813 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+1:M 25 Apr 2024 08:55:44.815 * Running mode=standalone, port=6379.
+1:M 25 Apr 2024 08:55:44.818 # Server initialized
+1:M 25 Apr 2024 08:55:44.820 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 25 Apr 2024 08:55:44.823 * Ready to accept connections
+1:signal-handler (1714035473) Received SIGTERM scheduling shutdown...
+1:M 25 Apr 2024 08:57:53.429 # User requested shutdown...
+1:M 25 Apr 2024 08:57:53.434 * Calling fsync() on the AOF file.
+1:M 25 Apr 2024 08:57:53.439 * Saving the final RDB snapshot before exiting.
+1:M 25 Apr 2024 08:57:53.455 * DB saved on disk
+1:M 25 Apr 2024 08:57:53.457 # Redis is now ready to exit, bye bye...
+1:C 25 Apr 2024 08:58:01.884 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 25 Apr 2024 08:58:01.886 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 25 Apr 2024 08:58:01.888 # Configuration loaded
+1:M 25 Apr 2024 08:58:01.890 * monotonic clock: POSIX clock_gettime
+1:M 25 Apr 2024 08:58:01.893 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+1:M 25 Apr 2024 08:58:01.894 * Running mode=standalone, port=6379.
+1:M 25 Apr 2024 08:58:01.896 # Server initialized
+1:M 25 Apr 2024 08:58:01.898 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 25 Apr 2024 08:58:01.900 * Ready to accept connections
+1:signal-handler (1714035508) Received SIGTERM scheduling shutdown...
+1:M 25 Apr 2024 08:58:28.416 # User requested shutdown...
+1:M 25 Apr 2024 08:58:28.417 * Calling fsync() on the AOF file.
+1:M 25 Apr 2024 08:58:28.419 * Saving the final RDB snapshot before exiting.
+1:M 25 Apr 2024 08:58:28.425 * DB saved on disk
+1:M 25 Apr 2024 08:58:28.426 # Redis is now ready to exit, bye bye...
+1:C 25 Apr 2024 08:58:33.906 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 25 Apr 2024 08:58:33.909 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 25 Apr 2024 08:58:33.913 # Configuration loaded
+1:M 25 Apr 2024 08:58:33.917 * monotonic clock: POSIX clock_gettime
+1:M 25 Apr 2024 08:58:33.920 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+1:M 25 Apr 2024 08:58:33.921 * Running mode=standalone, port=6379.
+1:M 25 Apr 2024 08:58:33.923 # Server initialized
+1:M 25 Apr 2024 08:58:33.925 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 25 Apr 2024 08:58:33.927 * Ready to accept connections
+1:signal-handler (1714035536) Received SIGTERM scheduling shutdown...
+1:M 25 Apr 2024 08:58:56.114 # User requested shutdown...
+1:M 25 Apr 2024 08:58:56.116 * Calling fsync() on the AOF file.
+1:M 25 Apr 2024 08:58:56.117 * Saving the final RDB snapshot before exiting.
+1:M 25 Apr 2024 08:58:56.123 * DB saved on disk
+1:M 25 Apr 2024 08:58:56.125 # Redis is now ready to exit, bye bye...
+1:C 25 Apr 2024 08:59:01.230 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 25 Apr 2024 08:59:01.233 # Redis version=6.2.7, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 25 Apr 2024 08:59:01.234 # Configuration loaded
+1:M 25 Apr 2024 08:59:01.237 * monotonic clock: POSIX clock_gettime
+1:M 25 Apr 2024 08:59:01.240 # A key '__redis__compare_helper' was added to Lua globals which is not on the globals allow list nor listed on the deny list.
+1:M 25 Apr 2024 08:59:01.243 * Running mode=standalone, port=6379.
+1:M 25 Apr 2024 08:59:01.244 # Server initialized
+1:M 25 Apr 2024 08:59:01.245 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 25 Apr 2024 08:59:01.248 * Ready to accept connections
